@@ -1,3 +1,13 @@
+
+if aimDir >= 0 && aimDir <180 {
+	draw_weapon()
+}
+
+
 draw_self()
 
-draw_sprite_ext(diamond_wand_sprite,0, x, centerY, 1,1,aimDir,c_white,1)
+
+if aimDir >= 180 && aimDir <360 {
+draw_weapon()
+
+}

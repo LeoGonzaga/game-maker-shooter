@@ -11,6 +11,7 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Cenas","folderPath":"folders/Cenas.yy","name":"Cenas","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objetos","folderPath":"folders/Objetos.yy","name":"Objetos","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sons","folderPath":"folders/Sons.yy","name":"Sons","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -35,6 +36,7 @@
     {"id":{"name":"solid_wall_object","path":"objects/solid_wall_object/solid_wall_object.yy",},},
     {"id":{"name":"wall_object","path":"objects/wall_object/wall_object.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
     {"id":{"name":"diamond_collectable_sprite","path":"sprites/diamond_collectable_sprite/diamond_collectable_sprite.yy",},},
     {"id":{"name":"diamond_wand_sprite","path":"sprites/diamond_wand_sprite/diamond_wand_sprite.yy",},},
     {"id":{"name":"enemy_goblin_die_sprite","path":"sprites/enemy_goblin_die_sprite/enemy_goblin_die_sprite.yy",},},
