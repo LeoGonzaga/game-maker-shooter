@@ -1,0 +1,1 @@
+global.diamonds=0
