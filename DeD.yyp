@@ -49,6 +49,7 @@
     {"id":{"name":"shoot_sprite","path":"sprites/shoot_sprite/shoot_sprite.yy",},},
     {"id":{"name":"SolidWall","path":"sprites/SolidWall/SolidWall.yy",},},
     {"id":{"name":"Sprite12","path":"sprites/Sprite12/Sprite12.yy",},},
+    {"id":{"name":"teste","path":"sprites/teste/teste.yy",},},
     {"id":{"name":"Wall","path":"sprites/Wall/Wall.yy",},},
     {"id":{"name":"Cave","path":"tilesets/Cave/Cave.yy",},},
     {"id":{"name":"ground_tile","path":"tilesets/ground_tile/ground_tile.yy",},},
