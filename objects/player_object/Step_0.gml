@@ -31,6 +31,7 @@
 	y+=yspd;
 
 
+depth = -bbox_bottom
 
 centerY = y + centerYOffset;
 aimDir = point_direction(x, centerY, mouse_x, mouse_y)
@@ -40,10 +41,12 @@ face = round(aimDir/90);
 if face == 4 {face = 0 }
 
 if xspd == 0 && yspd == 0 {
-	image_index = 0
-	//sprite_index = mage_idle_sprite
-}
+	//image_index = 0
+sprite_index = mage_idle_sprite
+}else{
 sprite_index = sprite[face]
+
+}
 	
 
 

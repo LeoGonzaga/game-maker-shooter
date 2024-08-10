@@ -8,7 +8,7 @@ moveSpd = 1;
 xspd = 0;
 yspd= 0;
 
-centerYOffset = -5;
+centerYOffset = 5;
 centerY = y+ centerYOffset;
 
 aimDir = 0;
