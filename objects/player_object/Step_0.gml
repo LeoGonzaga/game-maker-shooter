@@ -4,6 +4,8 @@
  rigthKey = keyboard_check( ord("D") )
 
 
+shooter_key = mouse_check_button(mb_left)
+
 	var _horizontal_key = rigthKey - leftKey;
 	var _verticalKey = downKey - upKey;
 	moveDir = point_direction(0, 0, _horizontal_key, _verticalKey)
@@ -50,6 +52,16 @@ sprite_index = sprite[face]
 	
 
 
+
+if shooter_key {
+
+	var _bulletInst = instance_create_depth(x, centerY, depth-100, shoot_1_object)
+	
+	
+	with (_bulletInst){
+	dir = other.aimDir
+	}
+}
 
 
 

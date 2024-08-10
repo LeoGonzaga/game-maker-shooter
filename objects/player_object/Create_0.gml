@@ -19,3 +19,6 @@ sprite[0] = mage_run_sprite;
 sprite[1] = mage_run_sprite;
 sprite[2] = mage_run_left_sprite;
 sprite[3] = mage_run_sprite;
+
+
+bulletObj = shoot_1_object
