@@ -7,3 +7,28 @@ length = _length;
 bullet_obj = _bullet_obj;
 cooldown = _cooldown
 }
+
+
+
+global.PlayerWeapons = array_create(0)
+
+
+global.WeaponList = {
+diamondWand: new create_weapon(
+	diamond_wand_sprite,
+	sprite_get_bbox_right(diamond_wand_sprite),
+	shoot_1_object,
+	9
+),
+poisonWand: new create_weapon(
+	  poison_wand_sprite,
+	 sprite_get_bbox_right(poison_wand_sprite),
+	shoot_object,
+	 5
+)
+}
+
+
+
+
+

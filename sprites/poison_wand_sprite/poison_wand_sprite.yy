@@ -15,6 +15,9 @@
     {"$GMSpriteFrame":"","%Name":"29a05da4-bc64-4cb8-a65c-a5aa2e4e4245","name":"29a05da4-bc64-4cb8-a65c-a5aa2e4e4245","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"8ed32cb7-f0fe-4c7e-9154-e3335139ea05","name":"8ed32cb7-f0fe-4c7e-9154-e3335139ea05","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"eb18c32c-e5e2-4315-9a16-93504c6e1cf3","name":"eb18c32c-e5e2-4315-9a16-93504c6e1cf3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"9dcbe690-0620-4fdd-aa02-40dce8015ed0","name":"9dcbe690-0620-4fdd-aa02-40dce8015ed0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"e76bde0d-a03a-4d8b-92d0-06ec74455864","name":"e76bde0d-a03a-4d8b-92d0-06ec74455864","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"f8ffc476-06c6-4df3-93b4-72b108463769","name":"f8ffc476-06c6-4df3-93b4-72b108463769","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -51,7 +54,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":3.0,
+    "length":6.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -79,6 +82,15 @@
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"eb18c32c-e5e2-4315-9a16-93504c6e1cf3","path":"sprites/poison_wand_sprite/poison_wand_sprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"5718f0b8-8833-4829-b1e4-38eac7a29e46","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9dcbe690-0620-4fdd-aa02-40dce8015ed0","path":"sprites/poison_wand_sprite/poison_wand_sprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ac259b9f-3866-4492-8376-48b85e250b19","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e76bde0d-a03a-4d8b-92d0-06ec74455864","path":"sprites/poison_wand_sprite/poison_wand_sprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"acd00fef-909d-44b5-b537-acd4d68b967c","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f8ffc476-06c6-4df3-93b4-72b108463769","path":"sprites/poison_wand_sprite/poison_wand_sprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a466787c-7c28-4276-ab75-95339eef859e","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

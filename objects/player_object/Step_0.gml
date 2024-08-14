@@ -4,6 +4,7 @@
 	rigthKey = keyboard_check( ord("D") )
 
 	shooter_key = mouse_check_button_pressed(mb_left)
+	swap_key_pressed = mouse_check_button_pressed(mb_right)
 
 	var _horizontal_key = rigthKey - leftKey;
 	var _verticalKey = downKey - upKey;
@@ -51,7 +52,17 @@ sprite_index = sprite[face]
 
 	
 
+var _player_weapons = global.PlayerWeapons;
 
+
+if swap_key_pressed {
+ selected_weapon++;
+ if selected_weapon>=array_length(_player_weapons){
+ selected_weapon = 0
+ }
+ 
+ weapon = _player_weapons[selected_weapon]
+}
 
 
 if shoot_timer > 0 { shoot_timer--}
