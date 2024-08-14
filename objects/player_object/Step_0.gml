@@ -43,19 +43,25 @@ face = round(aimDir/90);
 if face == 4 {face = 0 }
 
 if xspd == 0 && yspd == 0 {
-	//image_index = 0
-sprite_index = mage_idle_sprite
-}else{
+image_index = 0
+//sprite_index = mage_idle_sprite
+}
+
+
 sprite_index = sprite[face]
 
-}
 	
 
 
 
-if shooter_key {
 
-	var _bulletInst = instance_create_depth(x, centerY, depth-100, shoot_1_object)
+if shoot_timer > 0 { shoot_timer--}
+if shooter_key && shoot_timer <=0 {
+	shoot_timer = shoot_cooldown
+	
+	var _xOffset= lengthdir_x(weaponLength +weaponOffsetDist, aimDir)
+	var _yOffset= lengthdir_y(weaponLength + weaponOffsetDist, aimDir)
+	var _bulletInst = instance_create_depth(x+ _xOffset, centerY+_yOffset, depth-100, bulletObj)
 	
 	
 	with (_bulletInst){
