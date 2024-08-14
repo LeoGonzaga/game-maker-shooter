@@ -29,7 +29,7 @@ poisonWand: new create_weapon(
 	 sprite_get_bbox_right(poison_wand_sprite),
 	shoot_object,
 	 5,
-	 7,
+	 3,
 	 45
 )
 }

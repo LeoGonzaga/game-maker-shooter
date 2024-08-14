@@ -21,15 +21,16 @@
 	
 	if place_meeting(x + xspd, y, wall_object) {
 	  xspd = 0
+
 	}
 	if place_meeting(x, y + yspd, wall_object) {
 	  yspd = 0
+
 	}
-	
+	depth = -bbox_bottom
 	x += xspd;
 	y += yspd;
 	
-	depth = -bbox_bottom
 	
 #endregion
 
@@ -74,7 +75,7 @@
 	  var _y_offset = lengthdir_y(weapon.length + weaponOffsetDist, aimDir)
 	  
 	  var _spread = weapon.spread;
-	  var _spreadDiv = _spread / weapon.bullet_num
+	  var _spreadDiv = _spread / max(weapon.bullet_num -1,1)
 	  
 	  for (var i = 0; i < weapon.bullet_num; i++) {
 	    var _bullet_inst = instance_create_depth(x + _x_offset, centerY + _y_offset, depth - 100, weapon
