@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"enemy_goblin_die_sprite",
-    "path":"sprites/enemy_goblin_die_sprite/enemy_goblin_die_sprite.yy",
+    "name":"poison_shoot_sprite",
+    "path":"sprites/poison_shoot_sprite/poison_shoot_sprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -13,6 +13,8 @@ centerY = y+ centerYOffset;
 
 weaponOffsetDist =5;
 aimDir = 0;
+wand_image_index = 0;
+
 
 face = 0;
 
@@ -28,3 +30,5 @@ array_push(global.PlayerWeapons, global.WeaponList.poisonWand)
 
 selected_weapon = 1
 weapon = global.PlayerWeapons[selected_weapon]
+
+wand_image_number = sprite_get_number(weapon.sprite);
