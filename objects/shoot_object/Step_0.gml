@@ -1,20 +1,7 @@
-xspd = lengthdir_x(spd, dir)
-yspd = lengthdir_y(spd, dir)
+/// @description Inserir descrição aqui
+// Você pode escrever seu código neste editor
 
-x+= xspd
-y+= yspd
-
-
-if destroy {
-instance_destroy()
-}
-
-if place_meeting(x,y, solid_wall_object){
-	destroy =true
-}
-
-
-if point_distance(xstart, ystart, x,y)> maxDist {
-destroy = true
-}
+// Inherit the parent event
+event_inherited();
+image_angle = dir
 

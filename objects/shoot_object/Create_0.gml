@@ -1,7 +1,7 @@
-dir = 0
-spd =5
-xspd = 0
-yspd = 0
+/// @description Inserir descrição aqui
+// Você pode escrever seu código neste editor
 
-maxDist = 80
-destroy = false
+// Inherit the parent event
+event_inherited();
+spd = 10
+

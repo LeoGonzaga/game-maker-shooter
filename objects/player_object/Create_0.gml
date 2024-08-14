@@ -21,9 +21,24 @@ sprite[1] = mage_run_up_sprite;
 sprite[2] = mage_run_left_sprite;
 sprite[3] = mage_run_down_sprite;
 
-shoot_cooldown = 9
 shoot_timer = 0
 
 
-bulletObj = shoot_1_object
-weaponLength = sprite_get_bbox_right(diamond_collectable_sprite)
+
+diamond_wand = new create_weapon(
+diamond_wand_sprite,
+sprite_get_bbox_right(diamond_wand_sprite),
+shoot_1_object,
+9
+)
+
+
+
+poison_wand = {
+	 sprite: poison_wand_sprite,
+	 length: sprite_get_bbox_right(poison_wand_sprite),
+	 bullet_obj:shoot_object,
+	 cooldown:5
+}
+
+weapon = poison_wand

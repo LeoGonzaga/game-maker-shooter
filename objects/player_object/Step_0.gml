@@ -1,10 +1,9 @@
- upKey = keyboard_check( ord("W") )
- downKey = keyboard_check (ord("S") )
- leftKey = keyboard_check( ord("A") )
- rigthKey = keyboard_check( ord("D") )
+	upKey = keyboard_check( ord("W") )
+	downKey = keyboard_check (ord("S") )
+	leftKey = keyboard_check( ord("A") )
+	rigthKey = keyboard_check( ord("D") )
 
-
-shooter_key = mouse_check_button(mb_left)
+	shooter_key = mouse_check_button_pressed(mb_left)
 
 	var _horizontal_key = rigthKey - leftKey;
 	var _verticalKey = downKey - upKey;
@@ -57,14 +56,14 @@ sprite_index = sprite[face]
 
 if shoot_timer > 0 { shoot_timer--}
 if shooter_key && shoot_timer <=0 {
-	shoot_timer = shoot_cooldown
+	shoot_timer =weapon.cooldown
 	
-	var _xOffset= lengthdir_x(weaponLength +weaponOffsetDist, aimDir)
-	var _yOffset= lengthdir_y(weaponLength + weaponOffsetDist, aimDir)
-	var _bulletInst = instance_create_depth(x+ _xOffset, centerY+_yOffset, depth-100, bulletObj)
+	var _x_offset= lengthdir_x(weapon.length +weaponOffsetDist, aimDir)
+	var _y_offset= lengthdir_y(weapon.length + weaponOffsetDist, aimDir)
+	var _bullet_inst = instance_create_depth(x+ _x_offset, centerY+_y_offset, depth-100, weapon.bullet_obj)
 	
 	
-	with (_bulletInst){
+	with (_bullet_inst){
 	dir = other.aimDir
 	}
 }
