@@ -4,7 +4,7 @@ global.diamonds=1;
 
 
 moveDir = 0;
-moveSpd = 1;
+moveSpd = 1.2;
 xspd = 0;
 yspd= 0;
 

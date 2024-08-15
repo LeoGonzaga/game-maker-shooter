@@ -19,7 +19,7 @@
   "height":15,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"b3bf91cb-f95b-4237-b04d-daab16f3f5be","blendMode":0,"displayName":"default","isLocked":false,"name":"b3bf91cb-f95b-4237-b04d-daab16f3f5be","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"b3bf91cb-f95b-4237-b04d-daab16f3f5be","blendMode":0,"displayName":"default","isLocked":false,"name":"b3bf91cb-f95b-4237-b04d-daab16f3f5be","opacity":3.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"SolidWall",
   "nineSlice":null,
