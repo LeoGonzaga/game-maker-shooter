@@ -3,7 +3,7 @@
   "%Name":"poison_wand_sprite",
   "bboxMode":2,
   "bbox_bottom":8,
-  "bbox_left":0,
+  "bbox_left":11,
   "bbox_right":15,
   "bbox_top":7,
   "collisionKind":1,

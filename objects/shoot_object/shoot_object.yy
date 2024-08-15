@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"poison_shoot_sprite",
-    "path":"sprites/poison_shoot_sprite/poison_shoot_sprite.yy",
+    "name":"fire_arrow_shoot_sprite",
+    "path":"sprites/fire_arrow_shoot_sprite/fire_arrow_shoot_sprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,

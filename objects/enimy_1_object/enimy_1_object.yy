@@ -1,20 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"shoot_1_object",
+  "%Name":"enimy_1_object",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"shoot_1_object",
+  "name":"enimy_1_object",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Enimies",
+    "path":"folders/Objetos/Enimies.yy",
   },
   "parentObjectId":{
-    "name":"damage_enimy_object",
-    "path":"objects/damage_enimy_object/damage_enimy_object.yy",
+    "name":"enimy_parent_object",
+    "path":"objects/enimy_parent_object/enimy_parent_object.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -34,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"shoot_sprite",
-    "path":"sprites/shoot_sprite/shoot_sprite.yy",
+    "name":"enimy_globin_run_sprite",
+    "path":"sprites/enimy_globin_run_sprite/enimy_globin_run_sprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,
