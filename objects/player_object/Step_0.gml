@@ -5,6 +5,8 @@
 	shooter_key = mouse_check_button_pressed(mb_left)
 	swap_key_pressed = mouse_check_button_pressed(mb_right)
 	
+	space = keyboard_check(vk_space)
+	
 
 #region
 	var _horizontal_key = rigthKey - leftKey;
@@ -87,3 +89,7 @@
 }
 #endregion
 	
+	
+if space {
+	room_restart()
+}

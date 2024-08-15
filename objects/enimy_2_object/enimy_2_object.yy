@@ -1,20 +1,22 @@
 {
   "$GMObject":"",
-  "%Name":"enimy_parent_object",
+  "%Name":"enimy_2_object",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":12,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"enimy_parent_object",
+  "name":"enimy_2_object",
   "overriddenProperties":[],
   "parent":{
     "name":"Enimies",
     "path":"folders/Objetos/Enimies.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"enimy_parent_object",
+    "path":"objects/enimy_parent_object/enimy_parent_object.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
