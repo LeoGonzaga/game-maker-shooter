@@ -36,6 +36,9 @@
 	
 #endregion
 
+#region
+	get_damaged(damage_player_object)
+#endregion
 
 #region
 	centerY = y + centerYOffset;

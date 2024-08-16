@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"enimy_parent_object",
+  "%Name":"damage_player_test_object",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":12,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"enimy_parent_object",
+  "name":"damage_player_test_object",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enimies",
-    "path":"folders/Objetos/Enimies.yy",
+    "name":"Objetos",
+    "path":"folders/Objetos.yy",
   },
   "parentObjectId":{
     "name":"damage_player_object",
@@ -36,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"troll_walk_sprite",
-    "path":"sprites/troll_walk_sprite/troll_walk_sprite.yy",
+    "name":"damage_player_sprite",
+    "path":"sprites/damage_player_sprite/damage_player_sprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,
