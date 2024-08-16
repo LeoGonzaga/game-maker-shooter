@@ -30,7 +30,7 @@
   "origin":0,
   "parent":{
     "name":"ArchTroll",
-    "path":"folders/Sprites/Enemies/ArchTroll.yy",
+    "path":"folders/Sprites/Enimies/ArchTroll.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

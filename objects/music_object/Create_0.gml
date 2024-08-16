@@ -1,0 +1,1 @@
+audio_play_sound(battle_song,1,true)

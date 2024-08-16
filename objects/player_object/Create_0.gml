@@ -1,6 +1,11 @@
+get_damaged_create(4,true)
 window_set_fullscreen(true)
 
 global.diamonds=1;
+
+window_set_cursor(cr_none)
+
+
 
 
 moveDir = 0;
@@ -28,7 +33,7 @@ shoot_timer = 0
 array_push(global.PlayerWeapons, global.WeaponList.diamondWand)
 array_push(global.PlayerWeapons, global.WeaponList.poisonWand)
 
-selected_weapon = 1
+selected_weapon = 0
 weapon = global.PlayerWeapons[selected_weapon]
 
 wand_image_number = sprite_get_number(weapon.sprite);

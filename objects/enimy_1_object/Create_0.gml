@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
-spd = 0.8
+spd = 1
 dir = 0
 xspd = 0
 yspd = 0

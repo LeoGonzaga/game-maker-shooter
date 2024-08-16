@@ -14,7 +14,10 @@
     "name":"Enimies",
     "path":"folders/Objetos/Enimies.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"damage_player_object",
+    "path":"objects/damage_player_object/damage_player_object.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

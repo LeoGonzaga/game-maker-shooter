@@ -30,7 +30,7 @@
   "origin":7,
   "parent":{
     "name":"Troll",
-    "path":"folders/Sprites/Enemies/Troll.yy",
+    "path":"folders/Sprites/Enimies/Troll.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

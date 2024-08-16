@@ -1,2 +1,3 @@
-hp = 10
-damage_list = ds_list_create()
+
+event_inherited()
+get_damaged_create(20)
