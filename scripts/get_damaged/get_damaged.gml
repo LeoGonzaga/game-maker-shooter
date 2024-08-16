@@ -20,6 +20,7 @@ function get_damaged_create(_hp=10, _iframes = false){
 		damage_list = ds_list_create()
 
 	}
+	
 }
 
 
@@ -81,6 +82,7 @@ function get_damaged(_damage_object, _iframes=false){
 	  
 	  if _iframes && _hit_confirm {
 		iframeTimer= iframeNumber
+		if hp <= 0  { room_restart()}
 	  }
 	  
 	  ds_list_destroy(_inst_list)

@@ -61,6 +61,7 @@
     {"id":{"name":"shoot_1_object","path":"objects/shoot_1_object/shoot_1_object.yy",},},
     {"id":{"name":"shoot_object","path":"objects/shoot_object/shoot_object.yy",},},
     {"id":{"name":"solid_wall_object","path":"objects/solid_wall_object/solid_wall_object.yy",},},
+    {"id":{"name":"spam_object","path":"objects/spam_object/spam_object.yy",},},
     {"id":{"name":"wall_object","path":"objects/wall_object/wall_object.yy",},},
     {"id":{"name":"rmInitialize","path":"rooms/rmInitialize/rmInitialize.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},

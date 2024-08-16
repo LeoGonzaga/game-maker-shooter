@@ -90,7 +90,3 @@ get_damaged(damage_player_object, true)
 }
 #endregion
 	
-	
-if space {
-	room_restart()
-}
