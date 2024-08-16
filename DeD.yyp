@@ -69,6 +69,7 @@
     {"id":{"name":"fire_arrow_shoot_sprite","path":"sprites/fire_arrow_shoot_sprite/fire_arrow_shoot_sprite.yy",},},
     {"id":{"name":"ground_1_sprite","path":"sprites/ground_1_sprite/ground_1_sprite.yy",},},
     {"id":{"name":"ground_sprite","path":"sprites/ground_sprite/ground_sprite.yy",},},
+    {"id":{"name":"ground_tile_swamp","path":"sprites/ground_tile_swamp/ground_tile_swamp.yy",},},
     {"id":{"name":"healfth_potion_sprite","path":"sprites/healfth_potion_sprite/healfth_potion_sprite.yy",},},
     {"id":{"name":"health_hud_sprite","path":"sprites/health_hud_sprite/health_hud_sprite.yy",},},
     {"id":{"name":"mage_idle_sprite","path":"sprites/mage_idle_sprite/mage_idle_sprite.yy",},},
