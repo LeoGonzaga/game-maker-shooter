@@ -7,3 +7,4 @@ yspd = 0
 
 maxDist = 180
 destroy = false
+enemy_destroy = true

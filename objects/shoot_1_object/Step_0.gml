@@ -5,6 +5,8 @@ x+= xspd
 y+= yspd
 
 
+if hit_confirm == true && enemy_destroy == true { destroy = true }
+
 if destroy {
 instance_destroy()
 }
