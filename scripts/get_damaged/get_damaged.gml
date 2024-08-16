@@ -10,12 +10,13 @@ function get_damaged_create(_hp=10, _iframes = false){
 	hp = _hp;
 	
 	if _iframes == true {
-		iframe_timer = 0;
-		iframe_number = 90;
+		iframeTimer = 0;
+		iframeNumber = 90;
+		
 	}
 	
 	
-	if _iframe == false {
+	if _iframes == false {
 		damage_list = ds_list_create()
 
 	}
@@ -30,7 +31,11 @@ ds_list_destroy(damage_list)
 function get_damaged(_damage_object, _iframes=false){
 	
 	
-	if _iframes == true && iframe_timer
+	if _iframes == true && iframeTimer > 0 {
+
+	iframeTimer--;
+	exit;
+	}
 	
 	if place_meeting(x, y, _damage_object) {
 	  var _inst_list = ds_list_create();
@@ -58,7 +63,7 @@ function get_damaged(_damage_object, _iframes=false){
 	  }
 	  
 	  if _iframes && _hit_confirm {
-		iframe_timer= iframe_number
+		iframeTimer= iframeNumber
 	  }
 	  
 	  ds_list_destroy(_inst_list)
