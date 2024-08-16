@@ -2,6 +2,7 @@ window_set_fullscreen(true)
 
 global.diamonds=1;
 
+//window_set_cursor(cr_none)
 
 moveDir = 0;
 moveSpd = 1.2;

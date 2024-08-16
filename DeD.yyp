@@ -64,6 +64,7 @@
     {"id":{"name":"draw_weapon","path":"scripts/draw_weapon/draw_weapon.yy",},},
     {"id":{"name":"get_damaged","path":"scripts/get_damaged/get_damaged.yy",},},
     {"id":{"name":"arrow_shoot_sprite","path":"sprites/arrow_shoot_sprite/arrow_shoot_sprite.yy",},},
+    {"id":{"name":"cursor_shoot_sprite","path":"sprites/cursor_shoot_sprite/cursor_shoot_sprite.yy",},},
     {"id":{"name":"diamond_collectable_sprite","path":"sprites/diamond_collectable_sprite/diamond_collectable_sprite.yy",},},
     {"id":{"name":"diamond_wand_sprite","path":"sprites/diamond_wand_sprite/diamond_wand_sprite.yy",},},
     {"id":{"name":"enemy_goblin_die_sprite","path":"sprites/enemy_goblin_die_sprite/enemy_goblin_die_sprite.yy",},},
