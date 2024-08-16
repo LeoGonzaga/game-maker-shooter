@@ -85,6 +85,7 @@
     {"id":{"name":"speed_postion_sprite","path":"sprites/speed_postion_sprite/speed_postion_sprite.yy",},},
     {"id":{"name":"spin_shoot_sprite","path":"sprites/spin_shoot_sprite/spin_shoot_sprite.yy",},},
     {"id":{"name":"Sprite29","path":"sprites/Sprite29/Sprite29.yy",},},
+    {"id":{"name":"Trees","path":"sprites/Trees/Trees.yy",},},
     {"id":{"name":"troll_arch_attack_sprite","path":"sprites/troll_arch_attack_sprite/troll_arch_attack_sprite.yy",},},
     {"id":{"name":"troll_arch_walk_sprite","path":"sprites/troll_arch_walk_sprite/troll_arch_walk_sprite.yy",},},
     {"id":{"name":"troll_attack_sprite","path":"sprites/troll_attack_sprite/troll_attack_sprite.yy",},},
