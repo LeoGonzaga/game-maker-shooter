@@ -43,6 +43,7 @@
   },
   "name":"DeD",
   "resources":[
+    {"id":{"name":"box_object","path":"objects/box_object/box_object.yy",},},
     {"id":{"name":"camera_object","path":"objects/camera_object/camera_object.yy",},},
     {"id":{"name":"damage_enimy_object","path":"objects/damage_enimy_object/damage_enimy_object.yy",},},
     {"id":{"name":"damage_parent_object","path":"objects/damage_parent_object/damage_parent_object.yy",},},
@@ -96,8 +97,6 @@
     {"id":{"name":"Sprite32","path":"sprites/Sprite32/Sprite32.yy",},},
     {"id":{"name":"Sprite33","path":"sprites/Sprite33/Sprite33.yy",},},
     {"id":{"name":"Sprite34","path":"sprites/Sprite34/Sprite34.yy",},},
-    {"id":{"name":"Sprite35","path":"sprites/Sprite35/Sprite35.yy",},},
-    {"id":{"name":"Sprite36","path":"sprites/Sprite36/Sprite36.yy",},},
     {"id":{"name":"Sprite39","path":"sprites/Sprite39/Sprite39.yy",},},
     {"id":{"name":"troll_arch_attack_sprite","path":"sprites/troll_arch_attack_sprite/troll_arch_attack_sprite.yy",},},
     {"id":{"name":"troll_arch_walk_sprite","path":"sprites/troll_arch_walk_sprite/troll_arch_walk_sprite.yy",},},

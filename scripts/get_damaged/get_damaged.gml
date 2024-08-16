@@ -34,7 +34,24 @@ function get_damaged(_damage_object, _iframes=false){
 	if _iframes == true && iframeTimer > 0 {
 
 	iframeTimer--;
+	if iframeTimer mod 5  == 0 {
+	
+		if image_alpha == 1 {
+			image_alpha = 0
+		}else {
+			image_alpha = 1
+		}
+	}
+	
+	
+		
 	exit;
+	}
+	
+	
+	if _iframes == true {
+		image_alpha  =1 
+
 	}
 	
 	if place_meeting(x, y, _damage_object) {

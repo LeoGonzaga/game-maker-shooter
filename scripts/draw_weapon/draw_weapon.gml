@@ -18,5 +18,5 @@ function draw_weapon() {
 
 
 
-  draw_sprite_ext(weapon.sprite, wand_image_index, x, centerY, 1, _weapom_yscl, aimDir, c_white, 1)
+  draw_sprite_ext(weapon.sprite, wand_image_index, x, centerY, 1, _weapom_yscl, aimDir, c_white, image_alpha)
 }
