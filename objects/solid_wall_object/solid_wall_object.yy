@@ -6,8 +6,8 @@
   "name":"solid_wall_object",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Walls",
+    "path":"folders/Objetos/Walls.yy",
   },
   "parentObjectId":{
     "name":"wall_object",

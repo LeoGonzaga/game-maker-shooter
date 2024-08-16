@@ -9,8 +9,8 @@
   "name":"shoot_object",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Shoots",
+    "path":"folders/Objetos/Shoots.yy",
   },
   "parentObjectId":{
     "name":"shoot_1_object",

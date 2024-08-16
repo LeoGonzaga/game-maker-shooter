@@ -9,8 +9,8 @@
   "name":"explosion_object",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Itens",
+    "path":"folders/Objetos/Itens.yy",
   },
   "parentObjectId":null,
   "persistent":false,

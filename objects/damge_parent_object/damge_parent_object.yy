@@ -8,8 +8,8 @@
   "name":"damge_parent_object",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Managment",
+    "path":"folders/Objetos/Managment.yy",
   },
   "parentObjectId":null,
   "persistent":false,
