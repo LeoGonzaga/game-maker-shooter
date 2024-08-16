@@ -29,8 +29,8 @@ global.WeaponList = {
         poison_wand_sprite,
         sprite_get_bbox_right(poison_wand_sprite),
         shoot_object,
-        30,
-        3,
+        20,
+        6,
         20
     )
 }

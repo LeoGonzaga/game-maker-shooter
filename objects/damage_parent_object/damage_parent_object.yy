@@ -1,18 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"Object14",
-  "eventList":[],
+  "%Name":"damage_parent_object",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Object14",
+  "name":"damage_parent_object",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Managment",
+    "path":"folders/Objetos/Managment.yy",
   },
-  "parentObjectId":{
-    "name":"enimy_parent_object",
-    "path":"objects/enimy_parent_object/enimy_parent_object.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"enimy_teste",
-    "path":"sprites/enimy_teste/enimy_teste.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

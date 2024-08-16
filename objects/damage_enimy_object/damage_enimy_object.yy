@@ -10,8 +10,8 @@
     "path":"folders/Objetos/Enimies.yy",
   },
   "parentObjectId":{
-    "name":"damge_parent_object",
-    "path":"objects/damge_parent_object/damge_parent_object.yy",
+    "name":"damage_parent_object",
+    "path":"objects/damage_parent_object/damage_parent_object.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

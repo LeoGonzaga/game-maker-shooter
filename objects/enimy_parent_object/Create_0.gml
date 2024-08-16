@@ -1,2 +1,1 @@
-hp = 10
-damage_list = ds_list_create()
+get_damaged_create(20)

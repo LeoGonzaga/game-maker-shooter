@@ -1,1 +1,1 @@
-ds_list_destroy(damage_list)
+get_damaged_cleanup()
