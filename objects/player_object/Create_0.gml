@@ -1,9 +1,10 @@
 get_damaged_create(4,true)
 window_set_fullscreen(true)
 
-global.diamonds=1;
+global.diamonds=0;
+global.score = 0;
 
-window_set_cursor(cr_none)
+
 
 
 

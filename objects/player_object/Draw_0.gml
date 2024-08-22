@@ -1,6 +1,4 @@
 
-draw_sprite(cursor_shoot_sprite,0, mouse_x,mouse_y)
-
 if aimDir >= 0 && aimDir <180 {
 	draw_weapon()
 }
