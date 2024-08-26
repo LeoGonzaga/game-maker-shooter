@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"enimy_globin_run_sprite",
   "bboxMode":2,
-  "bbox_bottom":13,
+  "bbox_bottom":11,
   "bbox_left":3,
   "bbox_right":12,
   "bbox_top":3,

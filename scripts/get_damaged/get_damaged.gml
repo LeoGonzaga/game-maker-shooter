@@ -7,6 +7,7 @@
 
 
 function get_damaged_create(_hp=10, _iframes = false){
+	max_hp = _hp;
 	hp = _hp;
 	
 	if _iframes == true {

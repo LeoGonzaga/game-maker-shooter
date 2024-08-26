@@ -5,3 +5,4 @@
 event_inherited();
 spd = 10
 enemy_destroy = true
+maxDist=40

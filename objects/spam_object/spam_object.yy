@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"runt_spriote",
-    "path":"sprites/runt_spriote/runt_spriote.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

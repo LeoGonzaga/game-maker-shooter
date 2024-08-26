@@ -1,14 +1,13 @@
-var spawn_x =x
-var spawn_y =y + 10
+var _spawn_x =x
+var _spawn_y = y + 15
 
-var enemy_random = irandom_range(0, 2);
+var _enemy_random = irandom_range(0, 1);
 
-if enemy_random == 0 {
-  instance_create_layer(spawn_x, spawn_y, "Instances", enimy_1_object);
-} else if enemy_random == 1 {
-instance_create_layer(spawn_x, spawn_y, "Instances", enimy_2_object);
-}else {
-instance_create_layer(spawn_x, spawn_y, "Instances", enimy_1_object);
-}
+my_enemies = [enimy_1_object, enimy_2_object]
+
+var _current_enemy = my_enemies[_enemy_random]
+
+  instance_create_layer(_spawn_x, _spawn_y, "Instances", _current_enemy);
+
 
 alarm[0] = timer_spam

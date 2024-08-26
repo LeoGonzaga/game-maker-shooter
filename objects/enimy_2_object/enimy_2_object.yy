@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"troll_walk_sprite",
-    "path":"sprites/troll_walk_sprite/troll_walk_sprite.yy",
+    "name":"troll_attack_sprite",
+    "path":"sprites/troll_attack_sprite/troll_attack_sprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,
