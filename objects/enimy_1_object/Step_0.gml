@@ -24,3 +24,5 @@ x += xspd;
 y += yspd;
 
 event_inherited();
+
+
